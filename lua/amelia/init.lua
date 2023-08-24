@@ -16,3 +16,4 @@ vim.api.nvim_create_autocmd("LspAttach", {
   end,
 })
 require("autoclose").setup()
+vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
