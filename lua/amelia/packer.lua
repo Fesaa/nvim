@@ -25,7 +25,6 @@ return require('packer').startup(function(use)
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
-    use('lvimuser/lsp-inlayhints.nvim')
     use('m4xshen/autoclose.nvim')
     use('f-person/git-blame.nvim')
     use {
@@ -33,5 +32,9 @@ return require('packer').startup(function(use)
         requires = {
             'nvim-lua/plenary.nvim'
         }
+    }
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 end)
