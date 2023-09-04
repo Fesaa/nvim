@@ -28,4 +28,10 @@ return require('packer').startup(function(use)
     use('lvimuser/lsp-inlayhints.nvim')
     use('m4xshen/autoclose.nvim')
     use('f-person/git-blame.nvim')
+    use {
+        'tanvirtin/vgit.nvim',
+        requires = {
+            'nvim-lua/plenary.nvim'
+        }
+    }
 end)
