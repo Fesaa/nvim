@@ -11,3 +11,4 @@ require('lualine').setup({
     }
 })
 require("indent_blankline").setup()
+require("lsp-lens").setup()
