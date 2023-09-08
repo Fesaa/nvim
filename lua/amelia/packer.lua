@@ -39,4 +39,5 @@ return require('packer').startup(function(use)
     }
     use('lukas-reineke/indent-blankline.nvim')
     use('VidocqH/lsp-lens.nvim')
+    use('numToStr/FTerm.nvim')
 end)
