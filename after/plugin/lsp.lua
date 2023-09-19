@@ -8,8 +8,13 @@ lsp.ensure_installed({
     'pyright',
     'lua_ls',
     'clangd',
-    'cmake'
+    'cmake',
+    'omnisharp'
 })
+
+local lspconfig = require "lspconfig"
+
+lspconfig.omnisharp_mono.setup {}
 
 local cmp = require("cmp")
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
