@@ -1,5 +1,4 @@
 pack/
 plugin/
-lua/amelia/set.lua
 !after/*
 .DS_Store
