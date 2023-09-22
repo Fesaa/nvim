@@ -9,7 +9,8 @@ lsp.ensure_installed({
     'lua_ls',
     'clangd',
     'cmake',
-    'omnisharp'
+    'omnisharp',
+    'html'
 })
 
 local lspconfig = require "lspconfig"
