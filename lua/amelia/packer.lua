@@ -12,10 +12,7 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-    use({ 'rose-pine/neovim', as = 'rose-pine', })
-    use { "catppuccin/nvim", as = "catppuccin" }
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
-    use('nvim-treesitter/playground')
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
@@ -58,4 +55,7 @@ return require('packer').startup(function(use)
             })
         end
     })
+
+    -- Color schemes
+    use { "catppuccin/nvim", as = "catppuccin" }
 end)
