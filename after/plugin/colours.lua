@@ -2,7 +2,7 @@ require('catppuccin').setup({
     disable_background = true
 })
 
-function ColorMyPencils(color)
+function ColourMyPencils(color)
     color = color or "catppuccin-mocha"
     vim.cmd.colorscheme(color)
 
@@ -10,4 +10,4 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
-ColorMyPencils()
+ColourMyPencils()
