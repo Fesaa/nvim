@@ -55,6 +55,7 @@ return require('packer').startup(function(use)
             })
         end
     })
+    use('alvan/vim-closetag')
 
     -- Color schemes
     use { "catppuccin/nvim", as = "catppuccin" }

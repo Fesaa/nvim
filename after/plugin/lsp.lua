@@ -11,7 +11,8 @@ lsp.ensure_installed({
     'cmake',
     'omnisharp',
     'html',
-    'phpactor'
+    'phpactor',
+    'tsserver'
 })
 
 local lspconfig = require "lspconfig"
