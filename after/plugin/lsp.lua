@@ -10,7 +10,8 @@ lsp.ensure_installed({
     'clangd',
     'cmake',
     'omnisharp',
-    'html'
+    'html',
+    'phpactor'
 })
 
 local lspconfig = require "lspconfig"
