@@ -9,7 +9,7 @@ require('lualine').setup({
         theme = 'auto'
     }
 })
-require("indent_blankline").setup()
+require("ibl").setup()
 require("lsp-lens").setup()
 
 vim.cmd("colorscheme catppuccin-mocha")
