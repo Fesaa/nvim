@@ -56,6 +56,10 @@ return require('packer').startup(function(use)
         end
     })
     use('alvan/vim-closetag')
+    use {
+        'kkoomen/vim-doge',
+        run = ':call doge#install()'
+    }
 
     -- Color schemes
     use { "catppuccin/nvim", as = "catppuccin" }
