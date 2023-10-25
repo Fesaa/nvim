@@ -9,7 +9,7 @@ lsp.ensure_installed({
     'lua_ls',
     'clangd',
     'cmake',
-    'omnisharp',
+    'csharp_ls',
     'html',
     'phpactor',
     'tsserver'
