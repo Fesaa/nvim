@@ -12,4 +12,4 @@ require('lualine').setup({
 require("ibl").setup()
 require("lsp-lens").setup()
 
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme kanagawa-wave")
