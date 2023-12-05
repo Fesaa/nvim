@@ -64,4 +64,5 @@ return require('packer').startup(function(use)
     -- Color schemes
     use { "catppuccin/nvim", as = "catppuccin" }
     use { "rebelot/kanagawa.nvim", as = "kanagawa" }
+    use { "yorickpeterse/vim-paper", as = "paper" }
 end)
