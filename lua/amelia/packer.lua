@@ -60,7 +60,13 @@ return require('packer').startup(function(use)
         'kkoomen/vim-doge',
         run = ':call doge#install()'
     }
-
+    use {
+        "ThePrimeagen/refactoring.nvim",
+        requires = {
+            { "nvim-lua/plenary.nvim" },
+            { "nvim-treesitter/nvim-treesitter" }
+        }
+    }
     -- Color schemes
     use { "catppuccin/nvim", as = "catppuccin" }
     use { "rebelot/kanagawa.nvim", as = "kanagawa" }
