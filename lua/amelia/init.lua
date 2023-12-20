@@ -28,3 +28,5 @@ require('refactoring').setup({
     },
 })
 vim.cmd("colorscheme paper")
+
+vim.cmd("setlocal spell spelllang=en_gb")
