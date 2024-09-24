@@ -12,7 +12,7 @@ lsp.ensure_installed({
     'csharp_ls',
     'html',
     'phpactor',
-    'tsserver'
+    'ts_ls'
 })
 
 local lspconfig = require "lspconfig"
